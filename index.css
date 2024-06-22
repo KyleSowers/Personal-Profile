@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+nav {
+    position: fixed;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    width: 100vw;
+    height: 80px;
+    border-bottom: black solid 5px;
+    background-color: #444;
+}
+
+.navlinks {
+    font-weight: bold;
+    font-size: 22px;
+    padding: 7px;
+    color: aliceblue;
+    border: aliceblue double 2px;
+    border-radius: 8px;
+    text-decoration: none;
+}
