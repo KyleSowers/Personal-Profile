@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: aliceblue;
+    background-color: #798478;
 }
 
 nav {
@@ -16,7 +16,7 @@ nav {
     gap: 20px;
     width: 100vw;
     height: 80px;
-    border-bottom: black solid 5px;
+    border-bottom: aliceblue solid 5px;
     background-color: #444;
 }
 
@@ -25,7 +25,8 @@ nav {
     font-size: 22px;
     padding: 7px;
     color: aliceblue;
-    border: aliceblue double 2px;
+    border: aliceblue double 5px;
     border-radius: 8px;
+    box-shadow: 0 0 15px aliceblue;
     text-decoration: none;
 }
